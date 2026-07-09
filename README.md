@@ -4,7 +4,24 @@
 
 It does not replace `az`. It only manages which Azure CLI config directory your current shell uses.
 
+## Install
+
+With Homebrew:
+
+```bash
+brew install lognseth/tap/azenv
+```
+
+Or tap the repository first:
+
+```bash
+brew tap lognseth/tap
+brew install azenv
+```
+
 ## Install from source
+
+For a manual install from a local checkout:
 
 ```bash
 ./install.sh
