@@ -4,6 +4,21 @@ All notable changes to `azenv` will be documented in this file.
 
 This project uses semantic versioning while the CLI behavior is still small and explicit.
 
+## [0.2.0] - Unreleased
+
+### Added
+
+- Cobra-based subcommands and shell completion generation.
+- Global `config.yaml` and per-context `metadata.yaml` files.
+- Per-context Azure config directories under `contexts/<name>/azure`.
+- Metadata refresh from Azure CLI account and tenant data.
+- `login`, `logout`, `doctor`, `clone`, `rename`, and `starship` commands.
+- `fzf` picker support for `azenv use` with no arguments.
+
+### Changed
+
+- `azenv exec <context> -- <command...>` runs commands inside a context without switching the current shell.
+
 ## [0.1.2] - 2026-07-09
 
 ### Changed
