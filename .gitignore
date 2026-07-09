@@ -1,0 +1,16 @@
+# Build artifacts
+/azenv
+/dist/
+
+# Test and coverage output
+/coverage.out
+
+# Local editor and OS files
+.DS_Store
+.idea/
+.vscode/
+
+# Local Go caches sometimes used in sandboxed/dev environments
+/.cache/
+/.gocache/
+/.gomodcache/
