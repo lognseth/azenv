@@ -4,7 +4,7 @@ All notable changes to `azenv` will be documented in this file.
 
 This project uses semantic versioning while the CLI behavior is still small and explicit.
 
-## [0.2.0] - Unreleased
+## [0.2.0] - 2026-07-09
 
 ### Added
 
